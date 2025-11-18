@@ -1,4 +1,4 @@
-Snake.cpp
+
 #include <iostream>
 #include <windows.h>
 #include <cstdlib>
@@ -66,7 +66,6 @@ int main()
     while (1){
         if (kbhit()){
             t = getch();
-@@ -49.8 + 62.8 @@ int main()
             if (t=='x') Huong = 1;
         }
         system("cls");
